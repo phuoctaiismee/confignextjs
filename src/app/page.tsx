@@ -4,8 +4,8 @@ import { ColorSchemeToggle } from '@components/ColorSchemeToggle/ColorSchemeTogg
 export default function Page() {
   return (
     <>
-      <Welcome />
       <ColorSchemeToggle />
+      <Welcome />
     </>
   );
 }

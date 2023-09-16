@@ -35,6 +35,21 @@ export default function RootStyleRegistry({ children }: { children: React.ReactN
           withCSSVariables
           theme={{
             colorScheme,
+            colors: {
+              brand: [
+                '#dffef0',
+                '#b9f4d8',
+                '#91ecc1',
+                '#67e3a8',
+                '#3edb91',
+                '#26CA7D',
+                '#18965c',
+                '#0c6b41',
+                '#014126',
+                '#001708',
+              ],
+            },
+            primaryColor: 'brand',
           }}
         >
           {children}
